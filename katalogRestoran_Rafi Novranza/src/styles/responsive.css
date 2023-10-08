@@ -1,0 +1,27 @@
+@media only screen and (min-width: 600px) {
+    .resto-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .nav-item {
+      flex-direction: row;
+      background-color: transparent;
+      position: unset;
+      padding: 10px;
+    }
+    .hamburger {
+        display: none;
+      }
+    
+      .resto-list {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+      }
+    
+      .card-text {
+        padding: 10px 25px;
+      }
+    }
+    
